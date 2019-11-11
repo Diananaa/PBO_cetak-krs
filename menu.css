@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    background-color: rgb(244, 251, 255);
+}
+*
+{
+	margin:0px;
+	padding:0px;
+}
+#footer{
+	background-color: rgb(46, 45, 58);
+	height: 20;
+	color: blanchedalmond;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#body{
+	background-color: rgb(233, 233, 233);
+}
+
+#header{
+	
+	background-color: rgb(9, 136, 158);
+}
+
+#menu{
+	background-color: rgb(205, 220, 233);
+}
+
+#MENU ul
+{
+	list-style:none;
+}
+
+
+#MENU ul li
+{
+	float:left;
+	width:150px;
+	display:block;
+	text-align:center;
+	background-color:burlywood;
+	border:1px solid white;
+	height:35px;
+	line-height:35px;
+	position:relative;
+}
+
+
+#MENU ul li a
+{
+	
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+
+
+#MENU ul li a:hover
+{
+	 background-color:blue;
+	 
+}
+
+
+#MENU ul ul
+{
+	position:absolute;
+	display:none;
+}
+
+
+#MENU ul li:hover > ul
+{
+	display:block;
+}
+
+
+
+
+
+
+
+
+
